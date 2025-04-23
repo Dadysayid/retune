@@ -1,0 +1,39 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx src/index.ts",
+    "drizzle:push": "drizzle-kit push",
+    "drizzle:generate": "drizzle-kit generate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@elysiajs/node": "^1.2.6",
+    "@supabase/supabase-js": "^2.49.4",
+    "axios": "^1.8.4",
+    "cheerio": "^1.0.0",
+    "drizzle-orm": "^0.42.0",
+    "elysia": "^1.2.25",
+    "openai": "^4.95.1",
+    "pg": "^8.14.1",
+    "uuid": "^11.1.0",
+    "zod": "^3.24.3"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.35",
+    "@types/node": "^22.14.0",
+    "@types/pg": "^8.11.13",
+    "@types/uuid": "^10.0.0",
+    "dotenv": "^16.5.0",
+    "drizzle-kit": "^0.31.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.3"
+  }
+}
